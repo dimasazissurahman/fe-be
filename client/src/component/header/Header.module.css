@@ -1,0 +1,43 @@
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 1rem;
+    height: 64px;
+    /* background-color: aquamarine; */
+    margin-top: 0;
+    z-index: 99;
+    background: rgba(234, 234, 234, 0.4);
+    backdrop-filter: blur(40px);
+}
+
+.font_title {
+    /* font-family: "Roboto"; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sub_menu {
+    justify-content: center;
+    display: flex;
+}
+
+.mid {
+    width: 60%;
+}
+
+.sub_menu>p {
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.box_button {
+    cursor: pointer;
+    margin-left: 4rem;
+    padding: 0 2rem;
+    color: #FBFBFD;
+    background: #FAA21B;
+}
